@@ -17,3 +17,11 @@ updates:
     directory: "/python"
     schedule:
       interval: "daily"
+    ignore:
+    - dependency-name: flask
+      versions: ["> 1.0.0"]
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    assignees:
+    - sukumarp2022
