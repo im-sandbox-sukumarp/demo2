@@ -19,6 +19,9 @@ AWS_SECRET_ACCESS_KEY = "fake-secret-key-for-testing-push-protection-only"
 # Fake GitHub token (clearly fake)
 GITHUB_TOKEN = "ghp_fake-github-token-for-testing-123456789abcdef"
 
+# GitLab token pattern for testing
+GITLAB_TOKEN = "glpat-12345678901234567890"
+
 # Fake database connection string
 DATABASE_URL = "postgresql://testuser:fakepassword@localhost:5432/testdb"
 
