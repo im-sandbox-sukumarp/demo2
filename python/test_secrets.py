@@ -12,9 +12,9 @@ import os
 # Fake OpenAI API key (clearly fake format)
 OPENAI_API_KEY = "sk-test-fake-token-this-is-not-real-123456789abcdef"
 
-# Fake AWS credentials (obviously fake)
-AWS_ACCESS_KEY_ID = "AKIA-FAKE-TEST-KEY-12345"
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
 AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYzAbCdEfGhI"
+AWS_REGION = "us-east-1"
 
 # Fake GitHub token (clearly fake)
 GITHUB_TOKEN = "ghp_fake-github-token-for-testing-123456789abcdef"
